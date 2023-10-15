@@ -1,0 +1,70 @@
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    position: fixed;
+    bottom: 0; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(228, 12%, 44%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+body p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.container{
+    border: 3px transparent;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: hsl(0, 0%, 100%);
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    height: 450px;
+    width: 310px;
+    margin: 9% auto;
+    border-radius: 5%;
+    align-items: center;
+    text-align: center;
+    padding: 12px 0px;
+}
+
+
+.qr-code img {
+    width: 290px;
+    height: 270px;
+    border: 0 transparent;
+    border-radius: 5%;
+    margin: 0px auto;
+}
+
+.qr-code-text{
+    margin: auto 5px;
+}
+
+.qr-code-text h1{
+    color: hsl(218, 44%, 22%);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 16px 0px 15px;
+}
+
+.qr-code-text p{
+    margin: auto 5px;
+    padding: 1px;
+}
